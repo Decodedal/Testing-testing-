@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import GithubCard from './GitHubCard';
+import ColorButton from './button';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </p>
         <h2>Dallas is a code wizard</h2>
         <GithubCard/>
+        <ColorButton/>
         <a
           className="App-link"
           href="https://reactjs.org"

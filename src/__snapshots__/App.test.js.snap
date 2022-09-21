@@ -1,5 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`renders a snap shot of button 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "green",
+    }
+  }
+>
+  the color is 
+  green
+</button>
+`;
+
 exports[`renders a snapshot 1`] = `
 <div
   className="App"
