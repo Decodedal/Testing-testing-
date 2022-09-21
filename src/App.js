@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import GithubCard from './GitHubCard';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <h2>Dallas is a code wizard</h2>
+        <GithubCard/>
         <a
           className="App-link"
           href="https://reactjs.org"
